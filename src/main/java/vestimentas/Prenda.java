@@ -19,12 +19,4 @@ public class Prenda {
     this.material = material;
     this.colorPrimario = colorPrimario;
   }
-
-  public CategoriaDePrenda getCategoria() {
-    return this.tipo.getCategoria();
-  }
-
-  public TipoDePrenda getTipo() {
-    return this.tipo;
-  }
 }
