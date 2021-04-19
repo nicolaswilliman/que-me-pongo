@@ -1,9 +1,13 @@
 package vestimentas;
 
-public enum TipoDePrenda {
-  ZAPATOS,
-  CAMISA_MANGAS_CORTAS,
-  PANTALON,
-  JEAN,
-  BERMUDA,
+public class TipoDePrenda {
+  private CategoriaDePrenda categoria;
+
+  public CategoriaDePrenda getCategoria() {
+    return categoria;
+  }
+
+  public TipoDePrenda(CategoriaDePrenda categoria) {
+    this.categoria = categoria;
+  }
 }
