@@ -14,4 +14,20 @@ public class Atuendo {
     this.calzado = calzado;
     this.accesorios = accesorios;
   }
+
+  public Prenda getPrendaSuperior() {
+    return prendaSuperior;
+  }
+
+  public Prenda getPrendaInferior() {
+    return prendaInferior;
+  }
+
+  public Prenda getCalzado() {
+    return calzado;
+  }
+
+  public List<Prenda> getAccesorios() {
+    return accesorios;
+  }
 }
