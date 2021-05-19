@@ -2,7 +2,7 @@ package services;
 
 import java.util.Map;
 
-public class ClimaService extends IClimaService {
+public class ClimaService implements IClimaService {
 
   private AccuWeatherAPI api;
 
